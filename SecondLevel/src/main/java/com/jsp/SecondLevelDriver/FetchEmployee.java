@@ -1,8 +1,10 @@
-package com.jsp.SecondLevelEntity;
+package com.jsp.SecondLevelDriver;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+
+import com.jsp.SecondLevelEntity.Employee;
 
 public class FetchEmployee {
 
@@ -18,8 +20,8 @@ EntityManagerFactory emf=Persistence.createEntityManagerFactory("dbConfig");
 		
 		EntityManager em3=emf.createEntityManager();
 		
-		System.out.println(em3.find(Employee.class,1));
-		System.out.println(em3.find(Employee.class,1));
+		System.out.println("entity manager 2"+em2.find(Employee.class,1));
+		System.out.println("entity manager 3"+em3.find(Employee.class,1));
 
 	}
 
