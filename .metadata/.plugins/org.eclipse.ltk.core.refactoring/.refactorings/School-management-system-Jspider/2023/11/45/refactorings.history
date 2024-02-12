@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.jsp.controller.Teacher.TeacherTest&apos; to &apos;SaveTeacher&apos;&#x0A;- Original project: &apos;School-management-system-Jspider&apos;&#x0A;- Original element: &apos;com.jsp.controller.Teacher.TeacherTest&apos;&#x0A;- Renamed element: &apos;com.jsp.controller.Teacher.SaveTeacher&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TeacherTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.jsp.controller.Teacher{TeacherTest.java[TeacherTest" matchStrategy="1" name="SaveTeacher" qualified="false" references="true" similarDeclarations="false" stamp="1699595826630" textual="false" version="1.0"/>
+</session>
